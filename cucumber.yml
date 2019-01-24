@@ -1,0 +1,17 @@
+---
+
+default: -p pretty -p producao -p html -p iphone
+default_parallel: iphone=true --format pretty -f json --out report/parallel/report<%= ENV['TEST_ENV_NUMBER'] %>.json
+
+pretty: --format pretty
+producao: AMBIENTE=producao
+
+chrome: BROWSER=chrome
+firefox: BROWSER=firefox
+ie: BROWSER=ie
+safari: BROWSER=safari
+poltergeist: BROWSER=poltergeist
+iphone: BROWSER=iphone
+
+html: --format html --out=report.html
+json: --format html --out=report.json

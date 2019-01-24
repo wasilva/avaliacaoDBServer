@@ -1,0 +1,3 @@
+title_page_shipping: ".//h1[contains(text(),'Shipping')]"
+check_terms: ".//div[@class = 'checker']"
+button_proceed_to_checkout: ".//button[@name = 'processCarrier']"

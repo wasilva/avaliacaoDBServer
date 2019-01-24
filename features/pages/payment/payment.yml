@@ -1,0 +1,6 @@
+title_page_payment: ".//h1[contains(text(),'Please choose your payment method')]"
+button_pay_by_bank_wire: ".//p/a[@class = 'bankwire']"
+button_i_confirm_my_order: ".//button[@type = 'submit']/span/i"
+title_page_i_confirm_my_order: ".//div/h3"
+title_finish_order: ".//div/p[@class = 'cheque-indent']"
+            

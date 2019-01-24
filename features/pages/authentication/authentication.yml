@@ -1,0 +1,3 @@
+title_page_authentication: ".//h1[contains(text(),'Authentication')]"
+button_create_account: "button[class='btn btn-default button button-medium exclusive']"
+input_email: "input[class='is_required validate account_input form-control']"

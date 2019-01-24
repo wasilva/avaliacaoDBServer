@@ -1,0 +1,5 @@
+
+ span_your_shopping_cart: ".//span[contains(text(),'Your shopping cart')]"
+ title_shopping_cart_summary: ".//h1[contains(text(),'Shopping-cart summary')]"
+ cart_selected_product: "#layer_cart_product_title"
+ proceed_to_checkout: ".//a[contains(@title, 'Proceed to checkout')]"

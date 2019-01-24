@@ -1,0 +1,2 @@
+title_page_address: ".//h1[contains(text(),'Addresses')]"
+button_proced_to_checkout: ".//button[@name = 'processAddress']"

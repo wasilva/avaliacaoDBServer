@@ -1,0 +1,11 @@
+
+ button_add_to_cart: ".//span[contains(text(),'Add to cart')]"
+ button_proceed_to_checkout: ".//span[contains(text(),'Proceed to checkout')]"
+
+#  page.all(:xpath, button_add_to_cart)[0]
+#  page.all(:xpath, ".//a[contains(text(), 'Printed Summer Dress')]")[0]
+#element = "[class='ajax_block_product col-xs-12 col-sm-6 col-md-4 last-in-line first-item-of-tablet-line last-item-of-mobile-line']"
+ 
+#  find(element, text: "Printed Summer Dress")
+#   find("#columns").find(:xpath, ".//a[contains(text(), 'Printed Summer Dress')]").all(:xpath, button_add_to_cart)[0]
+#   page.all(:xpath, ".//li/descendant::a[contains(@title,  'Printed Dress')]/parent::h5/following-sibling::div[2]/a[1]")[0]

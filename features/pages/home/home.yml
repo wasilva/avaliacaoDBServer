@@ -1,0 +1,5 @@
+
+ input_search: "#search_query_top"
+ button_search: "button[class='btn btn-default button-search']"
+
+ products: ['Chiffon']
